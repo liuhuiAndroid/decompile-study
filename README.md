@@ -1,2 +1,7 @@
 # decompile-study
-每次反编译都要重新搜索工具，干脆列一个集合
+```shell
+# 反编译 AndroidManifest.xml文件
+# 借助工具 AXMLPrinter2 查看xml文件
+java -jar AXMLPrinter2.jar AndroidManifest.xml > result.txt
+```
+
